@@ -1,1 +1,98 @@
+# 🎫 IT Ticket Log and Resolution Records
+
+This document tracks IT tickets raised, actions taken, and resolutions provided.  
+It serves as both an operational log and a quick reference for recurring issues.
+
+---
+
+## 🧩 1. Ticket Overview
+
+| Ticket ID | Date | Department | Issue Summary | Status |
+|------------|------|-------------|----------------|---------|
+| #2025-001 | 28-Oct-2025 | Operations | New user unable to access Outlook | ✅ Resolved |
+| #2025-002 | 28-Oct-2025 | Finance | VM setup request for new staff | ✅ Completed |
+| #2025-003 | 29-Oct-2025 | HR | MDM enrollment error on Windows 11 | 🚧 In Progress |
+
+---
+
+## 🧠 2. Ticket Details and Resolution Steps
+
+### Ticket ID: #2025-001  
+**Date:** 28-Oct-2025  
+**User:** Sarah Johnson  
+**Issue:** Cannot access Outlook after login.  
+**Category:** Email / Authentication  
+**Root Cause:** MFA token not configured on new device.  
+**Resolution:**
+1. Verified email account on Azure portal.  
+2. Guided user through MFA setup via Authenticator app.  
+3. Re-synced credentials with M365.  
+4. User successfully logged in.
+
+**Screenshot:**
+![Outlook Access Screenshot](./screenshots/ticket_resolution.png)
+
+**Closed By:** IT Support – Ayo Owolabi 
+**Status:** ✅ Resolved  
+**Time to Resolve:** 45 minutes  
+
+---
+
+### Ticket ID: #2025-002  
+**Date:** 28-Oct-2025  
+**User:** Finance Dept  
+**Issue:** Request for VM setup for new employee.  
+**Category:** Virtualization  
+**Action Steps:**
+1. Created new VM “Win11_Client02” via Hyper-V.  
+2. Allocated 4GB RAM, 60GB storage, Gen 2 VM.  
+3. Installed Windows 11 ISO.  
+4. Configured network (Default Switch).  
+
+**Screenshot:**
+![VM Setup Screenshot](./screenshots/vm_summary.png)
+
+**Closed By:** IT Support – Admin  
+**Status:** ✅ Completed  
+**Time to Resolve:** 1 hour  
+
+---
+
+### Ticket ID: #2025-003  
+**Date:** 29-Oct-2025  
+**User:** HR Dept  
+**Issue:** Device not showing in MDM portal after enrollment.  
+**Category:** Intune / Device Management  
+**Troubleshooting Steps:**
+- Verified user device compliance.  
+- Checked Intune sync status.  
+- Pending Azure AD join confirmation.  
+
+**Screenshot:**
+![MDM Error Screenshot](./screenshots/mdm_error.png)
+
+**Assigned To:** IT Admin  
+**Status:** 🚧 In Progress  
+
+---
+
+## 🧾 3. Ticket Resolution Summary
+
+| Ticket ID | Root Cause | Resolution Summary | Closed By |
+|------------|-------------|--------------------|------------|
+| #2025-001 | MFA not configured | Set up Authenticator and synced credentials | Ayo Owolabi |
+| #2025-002 | VM setup request | Created and configured VM successfully | IT Support |
+| #2025-003 | Pending device sync | Awaiting Azure AD device confirmation | IT Admin |
+
+---
+
+## 📚 4. Knowledge Base Reference
+- [IT_Onboarding_KnowledgeBase.md](./IT_Onboarding_KnowledgeBase.md)
+- [MDM_Enrollment_Guide.md](./MDM_Enrollment_Guide.md)
+
+---
+
+**Last Updated:** 29-Oct-2025  
+**Maintained by:** IT Support Team  
+**Repository:** [github.com/<your-username>/IT-Support-Documentation](https://github.com)
 
