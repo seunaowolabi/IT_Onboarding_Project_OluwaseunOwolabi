@@ -1,1 +1,96 @@
+# 🧭 IT Onboarding Knowledge Base
+
+This Knowledge Base (KB) provides standardized IT onboarding procedures for new employees within the organization.  
+It ensures consistent device setup, system access, and compliance with IT security standards.
+
+---
+
+## 🧩 1. Onboarding Overview
+
+**Objective:**  
+To successfully onboard new employees with all required IT access, ensuring compliance, productivity, and data security.
+
+**Key Responsibilities:**
+- IT Support Officer – Setup & configuration
+- HR – Employee identity confirmation
+- New Employee – Account verification & MDM enrollment
+
+---
+
+## 🧠 2. Pre-Onboarding Checklist
+
+| Item | Description | Responsible | Status |
+|------|--------------|--------------|---------|
+| Email account creation | Create user mailbox and assign license | IT Admin | ✅ |
+| AD user setup | Create AD profile and assign group policy | IT Admin | ✅ |
+| MDM readiness | Confirm device meets Intune/MDM requirements | IT Support | ✅ |
+| Hardware allocation | Assign laptop or VM | HR/IT | ✅ |
+
+---
+
+## 🧰 3. Device Setup & MDM Enrollment
+
+**Steps:**
+1. Log into Windows using temporary credentials.  
+2. Navigate to:  
+   `Settings → Accounts → Access work or school → Connect`
+3. Enter work email (e.g. first.last@company.com)
+4. Follow on-screen instructions to complete enrollment.
+
+**Screenshot:**
+![MDM Enrollment Screenshot](./screenshots/mdm_enrollment.png)
+
+---
+
+## 🖥️ 4. Virtual Machine Setup (Win10_MasterImage Example)
+
+| Setting | Configuration |
+|----------|----------------|
+| VM Name | Win10_MasterImage |
+| Generation | 2 |
+| Startup Memory | 4096 MB |
+| Network | Default Switch |
+| Installation Media | Windows 11 ISO |
+
+**Screenshot:**
+![VM Summary Screenshot](./screenshots/vm_summary.png)
+
+---
+
+## 🧾 5. Account & Access Configuration
+
+- Assign M365 license and Teams access  
+- Add user to appropriate AD group  
+- Enable MFA on first login  
+- Configure email signature and password policy
+
+**Screenshot:**
+![Account Setup Screenshot](./screenshots/account_setup.png)
+
+---
+
+## 📞 6. Onboarding Call Summary (Example)
+
+> **Date:** 28-Oct-2025  
+> **Department:** Operations  
+> **Employee:**  Mary
+> **IT Officer:** Tunji 
+> **Actions:**  
+> - Account created and verified  
+> - VM setup completed  
+> - MDM successfully enrolled  
+> - Teams and Outlook configured  
+
+---
+
+## 📚 7. Related Documents
+
+- [IT_Ticket_Log.md](./IT_Ticket_Log.md)
+- [VM_Setup_Guide.md](./VM_Setup_Guide.md)
+- [MDM_Enrollment_Guide.md](./MDM_Enrollment_Guide.md)
+
+---
+
+**Last Updated:** 29-Oct-2025  
+**Maintained by:** IT Support Team
 
